@@ -1,0 +1,32 @@
+<instruction_set set_name= "test_ins">
+    <instruction> <!-- an instruction type-->
+        <name>ADDD</name> 
+        <execute_cycle>2</execute_cycle>
+        <function_unit>alu_add</function_unit>
+    </instruction>
+    <instruction> <!-- an instruction type-->
+        <name>SUBD</name> 
+        <execute_cycle>2</execute_cycle>
+        <function_unit>alu_add</function_unit>
+    </instruction>    
+    <instruction> <!-- an instruction type-->
+        <name>MULTD</name> 
+        <execute_cycle>15</execute_cycle>
+        <function_unit>alu_mul</function_unit>
+    </instruction>
+    <instruction> <!-- an instruction type-->
+        <name>DIVD</name> 
+        <execute_cycle>20</execute_cycle>
+        <function_unit>alu_div</function_unit>
+    </instruction>
+    <instruction> <!-- an instruction type-->
+        <name>LD</name> 
+        <execute_cycle>2</execute_cycle>
+        <function_unit>ld_unit</function_unit>
+    </instruction>
+    <instruction> <!-- an instruction type-->
+        <name>ST</name> 
+        <execute_cycle>2</execute_cycle>
+        <function_unit>st_unit</function_unit>
+    </instruction>     
+</instruction_set>
